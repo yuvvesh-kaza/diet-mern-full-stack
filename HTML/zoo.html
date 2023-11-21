@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+    <title>Zoo keeper application form</title>
+</head>
+<body>
+    <form>
+    <center>
+        <div style="float: left; width: 77%;">
+         <h1>Zoo Keeper Application Form</h1>
+         <p>Please complete the form. Mandatory fileds are marked with a   <font color="red">*</font></p>
+        </div>
+        <br>
+      <fieldset style="width: 50%;">
+        <legend><h3>Contact Details</h3></legend>
+        <table align="left">
+            <tr>
+                <td><label for="Name">Name<font color="red">*</font></label> </td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td><input type="text" name="Name" id="Name" required></td>
+            </tr>
+            <tr>
+                <td>Telephone </td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td><input type="number" name="Telephone"></td>
+            </tr>
+            <tr>
+                <td><label for="Email">Email<font color="red">*</font></label></td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td><input type="email" name="Email" id="Email" required></td>
+            </tr>
+        </table>
+      </fieldset>
+      <fieldset style="width: 50%;">
+        <legend><h3>Personal Information</h3></legend>
+        <table align="left">
+            <tr>
+                <td><label for="Age">Age<font color="red">*</font></label></td>
+                <td><input type="number" name="Age" id="Age" required></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                <select name="Gender" id="">
+                    <option value="Female">Female&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                    <option value="Male">Male</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>When do you<br> first know you<br> wanted to be<br> a zoo keeper</td>
+                <td><textarea name="Application" id="" cols="20" rows="8"></textarea></td>
+            </tr>
+        </table>
+      </fieldset>
+      <fieldset style="width: 50%;">
+        <legend><h3>Pick Your Favorite Animal</h3></legend>
+        <table align="left">
+            <tr>
+                <td><input type="checkbox">Zebra&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td><input type="checkbox">Cat&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td><input type="checkbox">Anaconda&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+                <td><input type="checkbox">Human</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox">Elephant</td>
+                <td><input type="checkbox">Wild Beast</td>
+                <td><input type="checkbox">Pigeon</td>
+                <td><input type="checkbox">Crab</td>
+            </tr>
+
+        </table>
+      </fieldset>
+      <br>
+      <br>
+      <div style="float: left; width: 57%;">
+       <button type="submit">Submit Application</button>
+      </div>
+    </center>
+    </form>
+</body>
+</html>

@@ -1,0 +1,63 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-image: url(../images/diet\ wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* navbar style*/
+.nav {
+    top: 0%;
+    padding: 1.5%;
+    padding-top: 1%;
+    box-shadow: 0 20px 20px rgba(34, 34, 34, 0.51);
+    position: fixed;
+    background-color: rgb(9, 9, 9);
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav .lnav {
+    position: fixed;
+}
+
+.nav .lnav a {
+    background-color: aliceblue;
+    color: black;
+    padding: 4px 8px 5px 8px;
+    margin-left: 50px;
+    border-radius: 3px;
+    font-weight:bold;  
+    font-size: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: aliceblue;
+    margin-left: 40px;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+.nav .home {
+    margin-left: 900px;
+}
+
+.nav a:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+/* article style */
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+    color: rgb(210, 212, 214, );
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.frame {
+    width: 100%;
+}

@@ -1,0 +1,29 @@
+/*
+applying styles
+*/
+/*element selector */
+h2 {
+    color: rgb(219, 4, 4);
+}
+/* grouping selector */
+h2,p {
+    text-align: center;
+}
+/*id selector*/
+#first {
+    text-align: center;
+}
+/*universal selector*/
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* class selector*/
+.second {
+    font-style: italic;
+}
+/*
+styles with background colors 
+*/
+body {
+    background-color: aliceblue;
+}
